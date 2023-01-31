@@ -1,0 +1,128 @@
+header, footer{
+    color: white;
+    background-color: #312c32;
+    margin: 0em 4em 0.5em 4em;
+    padding:0.2em;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS';
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.125em;
+    border-bottom: solid gray 0.1em;
+    margin-bottom: 0.5em;
+}
+
+nav {
+    font-family: 'Lucida Grande';
+    font-size: 1.125em;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.75em;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    background-color: #98Dafc;
+}
+
+p {
+    font-weight: bold;
+}
+
+ul li {
+    display: inline;
+    margin: auto 0.5em;
+}
+
+a {
+    color: #98Dafc;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #daad86;
+}
+
+a:hover {
+    background-color: #ffffcc; 
+}
+
+figure {
+    display: inline;
+    margin: 0.2em;
+}
+
+
+.main_img {
+    border: solid black;
+    padding: 0.2em;
+    width: 98%;
+    margin-top:0.75em;
+}
+
+.new_img {
+    margin-top:0.5em;
+}
+
+#social {
+    border-radius: 5px;
+    background-image: url(../images/gray-gradient.png);
+    background-position: left top;
+    background-repeat: repeat;
+    font-size: 70%;
+    padding: 0.75em;
+}
+
+#social img, span {
+    vertical-align: middle;
+}
+
+.images {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.body {
+    background-color: white;
+    margin: 1em 4em;
+    padding: 0.5em;
+}
+
+.byline {
+    font-style: italic;
+    color: gray;
+}
+
+.comment {
+    border-bottom: solid gray 0.1em;
+    padding: 0.25em 0em 0em;
+    border-style: dotted;
+    margin-bottom: 1em;
+}
+
+#Description, #Reviews, #Photos {
+    margin-bottom: 1em;
+}
+
+#Description .byline {
+    margin-bottom: 0.5em;
+}
+
+#Reviews > .comment:last-child {
+    border-top: solid gray 0.1em;
+}
